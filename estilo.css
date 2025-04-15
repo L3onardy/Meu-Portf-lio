@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header img{
+    max-width: 100%;
+}
+
+.imagem {
+    width: 40px;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007acc;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill {
+    background-color: #007acc;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #777;
+}
+.container{
+    max-width: 100%;
+    background-color: #007acc;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container1 a{
+    background-color: #007acc;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.calc-img{
+    width: 100px;
+}
+.contatos{
+    text-align: center;
+}
+.formulario{
+    max-width: 100%;
+    background-color: #007acc;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+input{
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: white;
+    background-color: #007acc;
+}
+textarea{
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: white;
+    background-color: #007acc;
+    color: white;
+}
+.botao{
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+    width: 100px;
+    border-radius: 5px;
+}
